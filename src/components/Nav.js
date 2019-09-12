@@ -6,7 +6,7 @@ class Nav extends React.Component {
         
         return (
             <div className='nav-container'>
-                <div className='nav-logo'>Icky Stickies</div>
+                <div className='nav-logo'><img src='sticky-logo.png' height='64' width='224' /></div>
                 <div className='nav-button' onClick={() => toggleNote()}>
                     { showNote ? 'x Cancel' : '+ Note' }
                 </div>
